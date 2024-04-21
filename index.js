@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 const db = require("./db.js");
 const bodyParser = require("body-parser");
-const Todo = require("./models/Todo");
+const Todo = require("./models/Todo.js");
 const Port = 3000;
 
 app.use(cors());
