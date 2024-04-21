@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
-const mongoURL = "mongodb://127.0.0.1:27017/todo";
+// const mongoURL = "mongodb://127.0.0.1:27017/todo";
+const mongoURL = "mongodb+srv://shudhanshu7324:Kittu12345@todos.2ildu6m.mongodb.net/"
 
 mongoose.connect(mongoURL, {
 //   useNewUrlParser: true,
